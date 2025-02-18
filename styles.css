@@ -126,3 +126,11 @@ section{
   box-sizing: border-box;
   min-height: fit-content;
 }
+.circle-img {
+  width: 550px;  
+  height: 550px;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin: 50px;
+  padding-left: 50px; 
+}
