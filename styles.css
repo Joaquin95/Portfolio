@@ -223,3 +223,51 @@ section {
   color: white;
   border: rgb(255, 255, 255) 0.1rem solid;
 }
+
+/*About me*/
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  gap: 2rem;
+  display: flex;
+}
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+.about-pic {
+  border-radius: 2rem;
+}
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(50, 50, 50) 1rem solid;
+  border-color: rgb(160, 160, 160);
+  text-align: center;
+}
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+.section__pic-container {
+  display: flex;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto 0;
+  padding-left: 50px;
+}
