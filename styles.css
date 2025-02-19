@@ -244,7 +244,10 @@ section {
 .about-pic {
   border-radius: 2rem;
 }
-.arrow {
+.Education-icon, .icon {
+  height: 100px;
+}
+.icon-arrow{
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
@@ -254,8 +257,8 @@ section {
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(50, 50, 50) 1rem solid;
-  border-color: rgb(160, 160, 160);
+  border: rgb(53, 53, 53) 1rem solid;
+  border-color: rgb(163, 163, 163);
   text-align: center;
 }
 .section-container {
