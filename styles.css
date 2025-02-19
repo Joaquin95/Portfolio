@@ -158,8 +158,8 @@ section {
 
 .section__text__p1 {
   text-align: center;
-  font-size: 1.75rem;
-  margin-bottom: 1rem;
+  /* font-size: 1.75rem;
+  margin-bottom: 1rem; */
 }
 .section__text__p2 {
   text-align: center;
@@ -184,6 +184,14 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+}
+.Education-icon, .icon {
+  height: 100px;
+}
+.icon-arrow{
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
 }
 
 /*Buttons*/
@@ -244,14 +252,7 @@ section {
 .about-pic {
   border-radius: 2rem;
 }
-.Education-icon, .icon {
-  height: 100px;
-}
-.icon-arrow{
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
+
 .details-container {
   padding: 1.5rem;
   flex: 1;
