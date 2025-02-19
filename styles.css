@@ -185,6 +185,7 @@ a:hover {
 
 .icon {
   height: 2rem;
+  cursor: pointer;
 }
 .Education-icon, .icon {
   height: 100px;
