@@ -182,7 +182,6 @@ section {
 /*Icons*/
 
 .icon {
-  cursor: pointer;
   height: 2rem;
 }
 .Education-icon, .icon {
@@ -191,7 +190,9 @@ section {
 .icon-arrow{
   position: absolute;
   right: -5rem;
-  bottom: 2.5rem;
+  height: 2rem;
+  margin-right: 10%;
+  cursor: pointer;
 }
 
 /*Buttons*/
