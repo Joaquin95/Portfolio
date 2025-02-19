@@ -156,10 +156,10 @@ section {
   font-weight: 600;
 }
 
-.section__text__p1 {
+.title-2 {
   text-align: center;
-  /* font-size: 1.75rem;
-  margin-bottom: 1rem; */
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
 .section__text__p2 {
   text-align: center;
@@ -172,11 +172,11 @@ section {
   text-align: center;
 }
 
-#socials-container {
+.socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
-  gap: 1rem;
+  margin-top: 15px;
+  gap: 10px;
 }
 
 /*Icons*/
@@ -198,7 +198,9 @@ section {
 .btn-container {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .btn {
@@ -207,6 +209,8 @@ section {
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+  border: 2px solid black;
+  font-size: 16px;
 }
 
 .btn-color-1 {
@@ -227,7 +231,7 @@ section {
 
 .btn-color-2:hover {
   cursor: pointer;
-  background: rgb(50, 50, 50);
+  background: rgb(55, 55, 55);
   color: white;
   border: rgb(255, 255, 255) 0.1rem solid;
 }
