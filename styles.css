@@ -189,9 +189,9 @@ a:hover {
   overflow: hidden;
 }
 .social-button img {
-  width: 130px; 
+  width: 130px;
   height: auto;
-  border-radius: 30px; 
+  border-radius: 30px;
 }
 
 /*Icons*/
@@ -200,10 +200,11 @@ a:hover {
   height: 2rem;
   cursor: pointer;
 }
-.Education-icon, .icon {
+.Education-icon,
+.icon {
   height: 100px;
 }
-.icon-arrow{
+.icon-arrow {
   position: absolute;
   right: -5rem;
   height: 2rem;
@@ -257,15 +258,15 @@ a:hover {
 
 #about h1 {
   position: relative;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
-.text-containers {
+.about-containers {
   display: flex;
   flex-direction: column;
-  flex: 1; 
+  flex: 1;
 }
-.text-container {
-  flex: 1; 
+.section-container {
+  flex: 1;
   text-align: center;
   font-size: 1.9rem;
   color: rgb(85, 85, 85);
@@ -295,22 +296,17 @@ a:hover {
   border: rgb(163, 163, 163) 3px solid;
   text-align: center;
 }
-.cert-container {
+.section__pic-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto; 
-  width: 80%;
-  height: auto;
-  border-radius: 2rem; 
-  overflow: hidden; 
-  padding: 10px;
+  height: 400%;
+  width: 400%;
+  margin: 0 auto;
 }
-.cert-container img {
-  width: 80%;
+.section__pic-container img {
+  width: 100%;
   height: auto;
   display: block;
-  border-radius: 1.5rem; 
+  border-radius: 1.5rem;
 }
 
 .section-container {
