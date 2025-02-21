@@ -125,6 +125,7 @@ a:hover {
   margin: 0;
   box-sizing: border-box;
   min-height: fit-content;
+  scroll-margin-top: 80px; 
 }
 
 .section-container {
@@ -272,6 +273,11 @@ a:hover {
   color: rgb(85, 85, 85);
   line-height: 1.3;
   padding: 20px;
+}
+.section__text__p1{
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
 .about-details-container {
   justify-content: center;
