@@ -259,18 +259,29 @@ a:hover {
   position: relative;
   margin-bottom: 10px; 
 }
-
-
-.about-containers {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  gap: 1rem;
+.text-containers {
   display: flex;
+  flex-direction: column;
+  flex: 1; /* Takes equal space */
+}
+.text-container {
+  flex: 1; /* Takes equal space */
+  max-width: 500px; /* Restrict width */
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(85, 85, 85);
+  line-height: 1.6;
+  padding: 20px;
 }
 .about-details-container {
   justify-content: center;
-  flex-direction: column;
+  align-items: center;
   display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
 .about-pic {
   border-radius: 2rem;
@@ -282,8 +293,7 @@ a:hover {
   margin: 10px;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 3px solid;
-  border-color: rgb(163, 163, 163);
+  border: rgb(163, 163, 163) 3px solid;
   text-align: center;
 }
 .cert-container {
@@ -313,4 +323,10 @@ a:hover {
 }
 p {
   background-color: white;
+}
+@media (max-width: 768px) {
+  .about-details-container {
+    flex-direction: column; /* Stack on smaller screens */
+    text-align: center;
+  }
 }
