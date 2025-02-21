@@ -255,13 +255,12 @@ a:hover {
 
 /*About me*/
 
-#about h1 {
+#about {
   position: relative;
-  margin-bottom: 10px;
 }
 .about-containers {
   display: flex;
-  flex-direction: column;
+  gap: 2rem;
   flex: 1;
 }
 .section__text__p1{
@@ -294,8 +293,8 @@ a:hover {
 }
 .section__pic-container {
   display: flex;
-  height: 400%;
-  width: 400%;
+  height: 450px;
+  width: 450px;
   margin: 0 auto;
 }
 .section-container {
