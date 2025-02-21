@@ -188,6 +188,11 @@ a:hover {
   border-radius: 30px;
   overflow: hidden;
 }
+.social-button img {
+  width: 130px; 
+  height: auto;
+  border-radius: 30px; 
+}
 
 /*Icons*/
 
