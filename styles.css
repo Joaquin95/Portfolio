@@ -197,11 +197,10 @@ a:hover {
 
 .icon {
   height: 2rem;
-  cursor: pointer;
 }
 .Education-icon,
 .icon {
-  height: 100px;
+  height: 50px;
 }
 .icon-arrow {
   position: absolute;
@@ -261,7 +260,7 @@ a:hover {
 .about-containers {
   display: flex;
   gap: 2rem;
-  flex: 1;
+  flex: .7;
 }
 .section__text__p1{
   text-align: center;
@@ -307,6 +306,7 @@ a:hover {
 }
 p {
   background-color: white;
+  margin: 10px;
 }
 @media (max-width: 768px) {
   .about-details-container {
