@@ -125,9 +125,8 @@ a:hover {
   height: auto;
   margin: 0;
   box-sizing: border-box;
-  scroll-margin-top: 80px; 
+  scroll-margin-top: 80px;
 }
-
 
 /*Profile*/
 
@@ -260,9 +259,9 @@ a:hover {
 .about-containers {
   display: flex;
   gap: 2rem;
-  flex: .7;
+  flex: 0.7;
 }
-.section__text__p1{
+.section__text__p1 {
   text-align: center;
   margin: 10%;
   font-size: 1.75rem;
@@ -318,3 +317,24 @@ p {
 
 /*Projects section*/
 
+#projects {
+  position: relative;
+}
+
+.color-container {
+  border-color: rgb(165, 165, 165);
+  background: rgb(250, 250, 250);
+}
+.project-img{
+  border-radius: 2rem;
+  width: 50%;
+  height: 50%;
+}
+.project-title{
+  margin: 1rem;
+  color: black;
+}
+.project-btn {
+  color: black;
+  border-color: rgb(165, 165, 165);
+}
