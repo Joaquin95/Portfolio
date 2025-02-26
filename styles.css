@@ -371,8 +371,18 @@ p {
   cursor: default;
 }
 .linkedin-link:hover {
-  color: blue; /* Changes text color to blue on hover */
+  color: blue;
 }
 .email-link:hover{
   color: blue;
+}
+
+/*Footer section*/
+footer{
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
 }
