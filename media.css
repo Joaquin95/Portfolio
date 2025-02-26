@@ -89,5 +89,13 @@
   .text-container{
     text-align: justify;
   }
+  .circle-img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto ;
+  }
 
 }
