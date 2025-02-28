@@ -386,3 +386,9 @@ footer {
 footer p {
   text-align: center;
 }
+.project-description {
+  text-align: center;
+  line-height: normal;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
